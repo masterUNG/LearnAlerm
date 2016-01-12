@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/masterUNG/MyWorkspace/Studio_Learning/AndroidTime/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0157a8480a693ea418443bf5ec875804323ab379">
+        <dex dex="/Users/masterUNG/MyWorkspace/Studio_Learning/AndroidTime/app/build/intermediates/pre-dexed/debug/instant-run_e932abe65d4c7921ff14e8f899888ef32432b8b9.jar" />
+    </item>
+    <item
+        jar="/Users/masterUNG/MyWorkspace/Studio_Learning/AndroidTime/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f233b280b008708d1ec414cbaa593564090fc7b6">
+        <dex dex="/Users/masterUNG/MyWorkspace/Studio_Learning/AndroidTime/app/build/intermediates/pre-dexed/debug/classes_435ee84b110e71d8e3a7f5a53c3fe2c57ddebf74.jar" />
+    </item>
+
+</items>
