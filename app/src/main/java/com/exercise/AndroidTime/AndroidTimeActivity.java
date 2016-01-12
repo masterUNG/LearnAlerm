@@ -1,7 +1,5 @@
 package com.exercise.AndroidTime;
 
-import java.util.Calendar;
-
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -15,6 +13,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
+
+import java.util.Calendar;
 
 public class AndroidTimeActivity extends Activity {
 	
@@ -31,7 +31,8 @@ public class AndroidTimeActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
+
+		//TextView For Show Setup Time
         textAlarmPrompt = (TextView)findViewById(R.id.alarmprompt);
         
         buttonstartSetDialog = (Button)findViewById(R.id.startSetDialog);
@@ -48,7 +49,7 @@ public class AndroidTimeActivity extends Activity {
 
 		
 	private void openTimePickerDialog(boolean is24r){
-		Calendar calendar = Calendar.getInstance();
+		Calendar calendar = Calendar.getInstance();	// java.utel
 		
 		timePickerDialog = new TimePickerDialog(
 				AndroidTimeActivity.this, 
