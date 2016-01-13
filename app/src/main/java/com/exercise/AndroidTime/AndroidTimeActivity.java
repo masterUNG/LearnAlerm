@@ -24,7 +24,7 @@ public class AndroidTimeActivity extends Activity {
 	
 	TimePickerDialog timePickerDialog;
 	
-	final static int RQS_1 = 1;
+	final static int RQS_1 = 0;
 	
     /** Called when the activity is first created. */
     @Override
